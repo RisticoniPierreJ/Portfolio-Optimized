@@ -1,0 +1,121 @@
+/************************ Gallery  ************************/
+.viewProjectGallery {
+
+    &__allGaleriesContainer {
+        @extend %flex-columnCentered;
+        gap: 50px;
+
+        @media (min-width: 1025px) {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+    }
+}
+
+.galleryContainer {
+    @extend %flex-columnCentered;
+    gap: 20px;
+
+    &__navigate {
+        @extend %flex-rowCentered;
+        gap: 20px;
+
+        & button {
+            border-radius: 50px;
+            width: 40px;
+            height: 40px;
+            border: none;
+            // #19
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+            background-color: $secondary;
+            color: $secondary-light;
+
+            @media (min-width: 768px) {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+.desktopGallery,
+.mobileGallery {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        width: 90%;
+    }
+
+    &__frame {
+        width: 100%;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    &__scrollContainer {
+        position: absolute;
+        top: 0;
+        background-color: #fffef9;
+
+        @extend %flex-column;
+        align-items: center;
+        width: 76.1%;
+        height: 83.1%;
+        margin-top: 3.3%;
+
+        overflow-y: auto;
+        // masque les barres de défilement pour IE et Edge
+        -ms-overflow-style: none;
+        // masque les barres de défilement pour Firefox
+        scrollbar-width: none;
+        // masque les barres de défilement pour Chrome, Safari, et Opera
+        &-scrollInner::-webkit-scrollbar {
+            display: none;
+        }
+
+        &-image {
+            display: block;
+            width: 100%;
+            height: auto;
+
+
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+
+.desktopGallery {
+    @media (min-width: 1025px) {
+        width: 100%;
+    }
+}
+
+.mobileGallery {
+
+    @media (min-width: 768px) {
+        width: 60%;
+    }
+
+    @media (min-width: 1025px) {
+        width: 70%;
+    }
+
+    &__frame {
+        width: 72%;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    &__scrollContainer {
+        width: 67%;
+        height: 81%;
+        margin-top: 15.2%;
+    }
+}

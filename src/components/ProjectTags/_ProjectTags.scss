@@ -1,0 +1,26 @@
+/************************ ProjectTags  ************************/
+.tags {
+
+    & ul {
+        @extend %flex-row;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    & li {
+        @extend %flex-rowCentered;
+        padding: 6px 9%;
+        border-radius: 10px;
+        background: $primary-dark;
+        color: $secondary-light;
+        font-size: 10px;
+        font-weight: 600;
+
+        // #19
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+        @media (min-width: 768px) {
+            font-size: 14px;
+        }
+    }
+}

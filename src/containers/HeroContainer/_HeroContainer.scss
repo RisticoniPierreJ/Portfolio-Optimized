@@ -1,0 +1,54 @@
+/************************ HeroContainer ************************/
+.hero {
+    @extend %flex-column;
+    gap: 25px;
+    margin-top: 50px;
+
+    @media (min-width: 768px) {
+        padding: 0 5%;
+        gap: 50px;
+        // margin-top: unset;
+    }
+
+    @media (min-width: 1025px) {
+        padding-top: 50px;
+        max-width: 1300px;
+        gap: 10px;
+    }
+
+    &__top {
+        @extend %flex-columnCentered;
+        gap: 25px;
+
+        @media (min-width: 768px) {
+            flex-direction: row-reverse;
+            // align-items: unset;
+            // justify-content: unset;
+            width: 100%;
+            gap: 50px;
+        }
+    }
+
+    &__buttons {
+        @extend %flex-column;
+        gap: 20px;
+        padding-left: 5%;
+        margin-bottom: 25px;
+        width: 200px;
+        height: 100px;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            justify-content: center;
+            gap: 50px;
+            padding-left: unset;
+            margin-bottom: 50px;
+            width: unset;
+            height: unset;
+        }
+
+        @media (min-width: 1025px) {
+            justify-content: unset;
+        }
+    }
+}

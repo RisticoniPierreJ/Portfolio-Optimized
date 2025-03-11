@@ -1,0 +1,25 @@
+/********************************************** Placeholders ************************************************/
+/*********************************************************************************************************/
+
+/************************ Flex box ************************/
+%flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+%flex-columnCentered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex-row {
+    display: flex;
+}
+
+%flex-rowCentered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

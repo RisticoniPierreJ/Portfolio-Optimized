@@ -1,0 +1,112 @@
+/************************ home  ************************/
+section {
+    padding-bottom: 45px;
+    scroll-snap-align: center;
+    background-color: $secondary-light;
+    position: relative;
+}
+
+.sectionTitle {
+    font-size: 1.375rem;
+    font-weight: 800;
+    font-family: $font-family-title;
+    text-align: center;
+    margin-top: 15px;
+
+    @media (min-width: 768px) {
+        font-size: 1.5rem;
+    }
+
+    @media (min-width: 1025px) {
+        font-size: 1.875rem;
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        width: 50%;
+        height: 3px;
+        margin: 5px auto 0;
+    }
+
+    &__light {
+        color: $secondary-light;
+
+        &::after {
+            background-color: $secondary-light;
+        }
+    }
+
+    &__dark {
+        color: $primary-darker;
+
+        &::after {
+            background-color: $primary-darker;
+        }
+    }
+}
+
+/* ------------------ Gestion du flex des sections, et du sytle en fonction des séparateurs ------------------ */
+.acceuil,
+.skills {
+    @extend %flex-columnCentered;
+}
+
+.acceuil {
+    padding-top: 50px;
+}
+
+.project,
+.skills {
+    background-color: $primary-medium;
+    padding-top: 23px;
+}
+
+.services,
+.contact {
+    padding-top: 70px;
+}
+
+.services,
+.project,
+.skills {
+    &__container {
+        @extend %flex-columnCentered;
+        gap: 40px;
+    }
+}
+
+// .services {
+//     &__container {
+//         @media (min-width: 768px) {
+//             padding: 0 5%;
+//         }
+//     }
+// }
+
+.services,
+.project {
+    &__container {
+        @media (min-width: 768px) {
+            padding: 0 5%;
+        }
+    }
+}
+
+.contact {
+    &__container {
+        @extend %flex-columnCentered;
+        gap: 20px;
+    }
+}
+
+/* ------------------ classe pour tranistion entre pages avec FramerMotion ------------------ */
+.privacy-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $primary-dark;
+    z-index: 20000;
+}

@@ -1,0 +1,23 @@
+/************************ Footer  ************************/
+.footer {
+    @extend %flex-columnCentered;
+    gap: 20px;
+    background-color: $primary-dark;
+    padding: 30px 0;
+
+    &__social {
+        @extend %flex-rowCentered;
+        gap: 20px;
+
+        &-icon {
+            width: 30px;
+            height: 30px;
+            color: $secondary-light;
+        }
+    }
+
+    &__text {
+        color: $secondary-light;
+        text-align: center;
+    }
+}

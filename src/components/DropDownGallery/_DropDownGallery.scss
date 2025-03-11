@@ -1,0 +1,73 @@
+/************************ DropDownGallery  ************************/
+
+.dropDownGalleryContainer {
+    position: relative;
+}
+
+.dropDownGallery {
+    border: none;
+    padding: 1em 3em 1em 1.5em;
+    border-radius: 5px;
+    background-color: $secondary;
+    color: $secondary-light;
+    font-weight: 500;
+    font-size: 14px;
+    // #19
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &__item {
+        background-color: $secondary;
+        color: $secondary-light;
+        font-weight: 500;
+        font-size: 14px;
+
+        @media (min-width: 768px) {
+            font-size: 16px;
+        }
+    }
+
+    &__arrow {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        height: 100%;
+        width: 2.5em;
+        pointer-events: none;
+        border-radius: 0 5px 5px 0;
+        background-color: $secondary-light;
+
+        &::before,
+        &::after {
+            --size: 0.45em;
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 0;
+            height: 0;
+        }
+
+        &::before {
+            border-left: var(--size) solid transparent;
+            border-right: var(--size) solid transparent;
+            border-bottom: var(--size) solid $secondary;
+            top: 40%;
+        }
+
+        &::after {
+            border-left: var(--size) solid transparent;
+            border-right: var(--size) solid transparent;
+            border-top: var(--size) solid $secondary;
+            top: 60%;
+        }
+    }
+}

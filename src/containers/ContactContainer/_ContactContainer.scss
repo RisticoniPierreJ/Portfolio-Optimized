@@ -1,0 +1,14 @@
+/************************ ContactContainer ************************/
+.contactContainer {
+    @extend %flex-columnCentered;
+    gap: 20px;
+    width: 100%;
+
+    &__SubTitle {
+
+        & span {
+            color: $primary-dark;
+            font-weight: 800;
+        }
+    }
+}

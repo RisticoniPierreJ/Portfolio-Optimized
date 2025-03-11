@@ -1,0 +1,63 @@
+/************************ ViewProjectTest  ************************/
+.viewProjecttMain {
+    background-color: $secondary-light;
+    padding-bottom: 60px;
+}
+
+/* ------------------ contenu ------------------ */
+.viewProject {
+    @extend %flex-columnCentered;
+    gap: 65px;
+    padding: 45px 10px 125px 10px;
+
+    @media (min-width: 768px) {
+        padding: 45px 12% 125px 12%;
+    }
+
+    @media (min-width: 1025px) {
+        padding: 45px 5% 125px 5%;
+    }
+}
+
+/* ------------------ Galerie ------------------ */
+.viewProjectGallery {
+
+    @extend %flex-columnCentered;
+    gap: 50px;
+    background-color: $primary-medium;
+    padding: 23px 10px 50px 10px;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        padding: 23px 5% 50px 5%;
+    }
+
+    @media (min-width: 1025px) {
+        padding: 23px 3% 50px 3%;
+    }
+
+    &__title {
+        font-family: $font-family-title;
+        font-size: 1.375rem;
+        font-weight: 800;
+        color: $secondary-light;
+
+        &::after {
+            content: '';
+            display: block;
+            width: 50%;
+            height: 3px;
+            margin: 5px auto 0;
+            background-color: $secondary-light;
+        }
+
+
+        @media (min-width: 768px) {
+            font-size: 1.5rem;
+        }
+
+        @media (min-width: 1025px) {
+            font-size: 1.875rem;
+        }
+    }
+}

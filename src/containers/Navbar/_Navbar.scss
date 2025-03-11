@@ -1,0 +1,31 @@
+/************************ Navbar  ************************/
+.navbar {
+    @extend %flex-columnCentered;
+
+    &__background {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 200px;
+        background: $primary-dark;
+        background: rgba($primary-dark, 0.8);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+
+    @media (min-width: 1025px) {
+        display: none;
+    }
+}
+
+.navbarDesktop {
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
+
+    @media (min-width: 1025px) {
+        display: flex;
+    }
+}

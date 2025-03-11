@@ -1,0 +1,42 @@
+.heroImage {
+    position: relative;
+    z-index: 2000;
+    width: 100%;
+    height: 100%;
+
+    &__picture {
+        @extend %flex-column;
+        align-items: center;
+
+        &-liquidShape {
+            position: absolute;
+            bottom: -30px;
+            // top: 10%;
+            z-index: -100;
+            width: 90%;
+
+            @media (min-width: 768px) {
+                width: 110%;
+            }
+
+            @media (min-width: 1025px) {
+                // width: 90%;
+            }
+        }
+    }
+
+    &__picture img {
+        z-index: -50;
+        width: 70%;
+        height: 100%;
+
+        @media (min-width: 768px) {
+            width: 90%;
+            min-width: 375px;
+        }
+
+        @media (min-width: 1025px) {
+            min-width: unset;
+        }
+    }
+}

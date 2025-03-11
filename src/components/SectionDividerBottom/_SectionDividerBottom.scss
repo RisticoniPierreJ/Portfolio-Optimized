@@ -1,0 +1,33 @@
+//
+/* ------------------ Séparateurs de section ------------------ */
+//
+
+// Séparateur du bas
+.custom-shape-divider-top-1719498626 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 1000;
+}
+
+.custom-shape-divider-top-1719498626 svg {
+    position: relative;
+    display: block;
+    width: calc(119% + 1.3px);
+    height: 57px;
+}
+
+.custom-shape-divider-top-1719498626 .shape-fill {
+    fill: #a3c6a6;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1719498626 svg {
+        width: calc(238% + 1.3px);
+        height: 46px;
+    }
+}

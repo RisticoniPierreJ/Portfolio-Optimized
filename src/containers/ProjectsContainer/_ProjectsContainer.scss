@@ -1,0 +1,13 @@
+/************************ ProjectsContainer  ************************/
+.projects {
+    @extend %flex-columnCentered;
+    gap: 20px;
+
+    @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-column-gap: 6%;
+        grid-row-gap: 50px;
+        // width: 100%;
+    }
+}

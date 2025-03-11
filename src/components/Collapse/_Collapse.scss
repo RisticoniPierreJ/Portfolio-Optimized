@@ -1,0 +1,115 @@
+/************************ Collapse  ************************/
+.collapse,
+.projectCollapse {
+    @extend %flex-column;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0 0 5px 5px;
+
+    // #28
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+
+    &__title {
+        @extend %flex-row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 25px 15px;
+        border-radius: 5px 5px 0 0;
+        background: $primary-dark;
+        cursor: pointer;
+        z-index: 2;
+
+        font-family: $font-family-title;
+        color: $secondary-light;
+        font-weight: 500;
+        font-size: 1.125rem;
+
+        @media (min-width: 768px) {
+            font-size: 1.375rem;
+        }
+
+        @media (min-width: 1025px) {
+            font-size: 1.625rem;
+            cursor: unset;
+        }
+
+    }
+
+    &__txt {
+        background: $primary-dark;
+        border-top: 8px solid $secondary-medium;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+    }
+
+    &__txt.show {
+        max-height: 350px;
+    }
+
+    &__txt-inner {
+        padding: 10px 15px 15px 15px;
+        @extend %flex-column;
+        gap: 10px;
+    }
+
+    &__chevronUp {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    &__chevronUp.rotate {
+        transform: rotate(180deg);
+    }
+}
+
+/************************ Collapse desktop ************************/
+
+.collapse {
+    &__txt {
+
+        @media (min-width: 1025px) {
+            max-height: none;
+            height: 450px;
+        }
+    }
+
+    &__txt.show {
+
+        @media (min-width: 1025px) {
+            max-height: none;
+        }
+    }
+
+    &__chevronUp {
+
+        @media (min-width: 1025px) {
+            display: none;
+        }
+    }
+
+}
+
+/************************ ProjectCollapse  ************************/
+.projectCollapse {
+    border-radius: 0 20px 20px 0;
+    min-height: 52px;
+
+    &__title {
+        padding: 10px 15px;
+        font-size: 1rem;
+        font-weight: 600;
+        min-height: 52px;
+        cursor: pointer;
+
+        @media (min-width: 768px) {
+            font-size: 1.25rem;
+        }
+    }
+
+    &__txt {
+        border-top: 4px solid $secondary-medium;
+        background: $primary-dark;
+    }
+}

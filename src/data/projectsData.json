@@ -1,0 +1,398 @@
+[
+    {
+        "id": "1",
+        "title": "Oh my food",
+        "cover": {
+            "mobile": "ohMyFood_300x225.webp",
+            "tablet": "ohMyFood_800x600.webp",
+            "desktop": "ohMyFood_1240x930.webp"
+        },
+        "logo": "ohmyfood.png",
+        "description": "L'objectif de cette mission était de développer l'interface mobile-first du site Ohmyfood, une start-up spécialisée dans la restauration. Le site répertorie les menus de restaurants gastronomiques, permettant aux clients de composer leur repas à l'avance pour minimiser les temps d'attente.",
+        "challenges": [
+            {
+                "title": "Intégration Mobile-First",
+                "content": "Pour ce projet, le principal défi était de s'assurer que le site fonctionne parfaitement sur les appareils mobiles, tout en étant adaptable aux écrans plus grands. La solution a été de suivre les maquettes Figma de près, en adoptant une approche mobile-first pour garantir une expérience utilisateur fluide et responsive."
+            },
+            {
+                "title": "Mise en Œuvre des Animations CSS",
+                "content": "L'intégration d'animations CSS pour enrichir l'expérience utilisateur a présenté un défi notable. Il a été crucial de créer des animations qui soient à la fois élégantes et performantes, en utilisant les fonctionnalités avancées de Sass pour organiser et optimiser le code CSS."
+            },
+            {
+                "title": "Gestion de Version avec Git et GitHub",
+                "content": "La versionnement du projet avec Git et GitHub a permis une gestion efficace du code et une collaboration structurée. Il a été essentiel de suivre les meilleures pratiques de commit et de gestion de branches pour assurer une intégration continue et sans heurts."
+            },
+            {
+                "title": "Respect des Spécifications Techniques",
+                "content": "Une note de synthèse comprenait des spécifications techniques détaillées et des contraintes que le projet devait respecter.Il a été essentiel de s'assurer que toutes les exigences étaient bien comprises et implémentées, notamment l'utilisation de Sass et l'intégration d'animations précises."
+            }
+        ],
+        "desktop": [
+            {
+                "title": "Acceuil",
+                "images": ["OhMyFood_desktop_acceuil.webp"]
+            },
+            {
+                "title": "Restaurant",
+                "images": ["OhMyFood_desktop_pageResto.webp"]
+            }
+        ],
+        "mobile": [
+            {
+                "title": "Acceuil",
+                "images": ["OhMyFood_phone_acceuil.webp"]
+            },
+            {
+                "title": "Restaurant",
+                "images": ["OhMyFood_phone_pageResto.webp"]
+            }
+        ],
+        "tags": ["Html", "Css", "Sass", "Git", "GitHub"],
+        "repository": "https://github.com/RisticoniPierreJ/OhMyFood",
+        "demo": "https://risticonipierrej.github.io/OhMyFood/"
+    },
+    {
+        "id": "2",
+        "title": "Kaza",
+        "cover": {
+            "mobile": "kaza_300x225.webp",
+            "tablet": "kaza_800x600.webp",
+            "desktop": "kaza_1240x930.webp"
+        },
+        "logo": "Kaza.png",
+        "description": "L'objectif de cette mission était de développer l'interface front-end du site Kasa, une entreprise de location d'appartements entre particuliers. J'ai utilisé React et React Router pour offrir une expérience utilisateur moderne et dynamique. La refonte du site devait inclure une transition vers une stack JavaScript complète et un design responsive basé sur des maquettes Figma.",
+        "challenges": [
+            {
+                "title": "Intégration avec React et React Router",
+                "content": "Le principal défi était de configurer et gérer la navigation entre les différentes pages de l'application en utilisant React Router. La solution a été d'implémenter une structure de routes claire et efficace pour assurer une navigation fluide et intuitive, en suivant les guidelines et maquettes fournies."
+            },
+            {
+                "title": "Développement Mobile-First",
+                "content": "Le site devait être conçu en suivant une approche mobile-first. Cela nécessitait de s'assurer que chaque composant et mise en page soit d'abord optimisé pour les petits écrans, puis ajusté pour les écrans plus grands. Le respect strict des maquettes Figma a été crucial pour garantir une expérience utilisateur cohérente sur tous les appareils."
+            },
+            {
+                "title": "Utilisation des Données Simulées",
+                "content": "En l'absence d'un back-end opérationnel, il a fallu utiliser des données simulées extraites d'un fichier JSON pour développer et tester l'application. Cela a permis de créer un front-end complet et fonctionnel en attendant la mise en place du back-end."
+            },
+            {
+                "title": "Implémentation des Animations et Composants",
+                "content": "Les maquettes Figma incluaient des animations spécifiques et des comportements attendus pour certains composants comme la galerie d'images et les collapses. Il a été nécessaire de développer ces fonctionnalités en suivant les spécifications détaillées, en s'assurant que les animations soient fluides et que les interactions utilisateur soient intuitives."
+            }
+        ],
+        "desktop": [
+            {
+                "title": "Acceuil",
+                "images": ["Kaza_desktop_acceuil.webp"]
+            },
+            {
+                "title": "Logement",
+                "images": ["Kaza_desktop_house.webp"]
+            },
+            {
+                "title": "Á propos",
+                "images": ["Kaza_desktop_aPropos.webp"]
+            }
+        ],
+        "mobile": [
+            {
+                "title": "Acceuil",
+                "images": ["Kaza_phone_acceuil.webp"]
+            },
+            {
+                "title": "Logement",
+                "images": ["Kaza_phone_house.webp"]
+            },
+            {
+                "title": "Á propos",
+                "images": ["Kaza_phone_aPropos.webp"]
+            }
+        ],
+        "tags": ["Html", "Css", "Sass", "Javascript", "React", "React Router"],
+        "repository": "https://github.com/RisticoniPierreJ/Kasa",
+        "demo": "https://risticonipierrej.github.io/Kasa/"
+    },
+    {
+        "id": "3",
+        "title": "Domaine Victoria",
+        "cover": {
+            "mobile": "domaineVictoria_300x225.webp",
+            "tablet": "domaineVictoria_800x600.webp",
+            "desktop": "domaineVictoria_1240x930.webp"
+        },
+        "logo": "DomaineVictoria.png",
+        "description": "L'objectif de ce projet professionnel était de créer un site web pour la location de villas de luxe en Corse, spécifiquement en Balagne. Le site devait être entièrement fonctionnel,responsive, esthétiquement plaisant, et optimisé pour le SEO afin d'attirer et de convertir les visiteurs en clients potentiels.",
+        "challenges": [
+            {
+                "title": "Design et Intégration Responsive",
+                "content": "Le site devait offrir une expérience utilisateur optimale sur tous les appareils. Le principal défi était de s'assurer que le design restait cohérent et attrayant sur mobile, tablette et desktop. La solution a été d'utiliser des techniques de design responsive et d'implémenter des composants CSS flexibles et adaptatifs."
+            },
+            {
+                "title": "Optimisation SEO",
+                "content": "Un autre défi majeur était d'optimiser le site pour le référencement afin d'augmenter sa visibilité sur les moteurs de recherche. Cela a impliqué l'optimisation des balises meta, la structuration des URL, et l'amélioration de la vitesse de chargement des pages. L'utilisation de techniques de SEO on-page a permis d'atteindre des performances optimales."
+            },
+            {
+                "title": "Développement Back-End en C#",
+                "content": "Le back-end a été développé en C# pour gérer les interactions avec les utilisateurs. La communication entre le front-end et le back-end a été assurée via des API RESTful, permettant une gestion fluide des données et des transactions."
+            },
+            {
+                "title": "Gestion des Contenus et des Images",
+                "content": "Le site nécessitait la gestion efficace des contenus et des images des villas. Les images de haute qualité ont été optimisées pour le web afin de garantir des temps de chargement rapides tout en conservant une bonne qualité visuelle. Le contenu a été structuré de manière à être facilement accessible et à offrir une navigation intuitive aux utilisateurs."
+            },
+            {
+                "title": "Maintenance et Évolutivité",
+                "content": "Enfin, le site devait être maintenable et évolutif pour intégrer facilement de nouvelles fonctionnalités à l'avenir.L'utilisation de Git pour la gestion des versions a permis de suivre les modifications et de collaborer efficacement avec le client pour répondre à ses besoins évolutifs."
+            },
+            {
+                "title": "Mise en Production",
+                "content": "Le déploiement du site en production représentait un autre défi. Il était crucial de s'assurer que le site fonctionnait sans problème dans l'environnement de production et que toutes les fonctionnalités étaient opérationnelles. Des tests exhaustifs ont été réalisés avant le déploiement final pour garantir une transition en douceur. La mise en production a impliqué la configuration des serveurs, et l'assurance que toutes les intégrations fonctionnaient correctement."
+            }
+        ],
+        "desktop": [
+            {
+                "title": "Acceuil",
+                "images": ["DV_desktop_acceuil.webp"]
+            },
+            {
+                "title": "villas",
+                "images": ["DV_desktop_villas.webp"]
+            },
+            {
+                "title": "Tarifs",
+                "images": ["DV_desktop_tarifs.webp"]
+            },
+            {
+                "title": "Contact",
+                "images": ["DV_desktop_contact.webp"]
+            }
+        ],
+        "mobile": [
+            {
+                "title": "Acceuil",
+                "images": ["DV_phone_acceuil.webp"]
+            },
+            {
+                "title": "villas",
+                "images": ["DV_phone_villas.webp"]
+            },
+            {
+                "title": "Tarifs",
+                "images": ["DV_phone_tarifs.webp"]
+            },
+            {
+                "title": "Contact",
+                "images": ["DV_phone_contact.webp"]
+            }
+        ],
+        "tags": ["Html", "Css", "Javascript", "Sass", "Git", "C#"],
+        "repository": "",
+        "demo": "https://www.domaine-victoria.com/index.html"
+    },
+    {
+        "id": "4",
+        "title": "Booki",
+        "cover": {
+            "mobile": "booki_300x225.webp",
+            "tablet": "booki_800x600.webp",
+            "desktop": "booki_1240x930.webp"
+        },
+        "logo": "Booki.png",
+        "description": "L'objectif de cette mission était d'intégrer l'interface du site Booki en HTML et CSS, en veillant à ce que le site soit responsive et fonctionne parfaitement sur tous les appareils et tailles d'écran.Le site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "challenges": [
+            {
+                "title": "Intégration Responsive",
+                "content": "Pour ce projet, le défi principal était de s'assurer que la page d'accueil fonctionne bien sur tous les appareils et tailles d'écran. La solution a été de suivre les maquettes Figma de près et d'utiliser les principes de design responsive pour garantir une expérience utilisateur cohérente."
+            },
+            {
+                "title": "Respect des Spécifications Techniques",
+                "content": "Une note de synthèse comprenait des spécifications techniques détaillées et des contraintes que le projet devait respecter.Il a été essentiel de s'assurer que toutes les exigences étaient bien comprises et implémentées."
+            },
+            {
+                "title": "Utilisation du Code d'Exemple de Figma",
+                "content": "Bien que Figma proposait du code d'exemple, il était souvent problématique (mauvais positionnement, mesures en pixels, etc). La solution a été de créer des composants d'interface avec HTML et CSS, en veillant à respecter les bonnes pratiques de positionnement et de mesure relative."
+            }
+        ],
+        "desktop": [
+            {
+                "title": "Acceuil",
+                "images": ["Booki_desktop_acceuil.webp"]
+            }
+        ],
+        "mobile": [
+            {
+                "title": "Acceuil",
+                "images": ["Booki_phone_acceuil.webp"]
+            }
+        ],
+        "tags": ["Html", "Css"],
+        "repository": "https://github.com/RisticoniPierreJ/Booki",
+        "demo": "https://risticonipierrej.github.io/Booki/"
+    },
+    {
+        "id": "5",
+        "title": "Sophie Bluel",
+        "cover": {
+            "mobile": "sophieBluel_300x225.webp",
+            "tablet": "sophieBluel_800x600.webp",
+            "desktop": "sophieBluel_1240x930.webp"
+        },
+        "logo": "SophieBluel.png",
+        "description": "L'objectif de cette mission était de développer le site portfolio d'une architecte d'intérieur en utilisant JavaScript pour créer des pages web dynamiques et communiquer avec une API. Cela incluait la gestion des interactions utilisateur et la manipulation du DOM.",
+        "challenges": [
+            {
+                "title": "Intégration Dynamique avec JavaScript",
+                "content": "Le principal défi était de gérer les interactions utilisateur et de manipuler le DOM pour rendre la page de présentation des travaux de l'architecte interactive et fonctionnelle. La solution a été d'écrire du JavaScript propre et efficace pour répondre aux événements utilisateur et mettre à jour le contenu de la page dynamiquement."
+            },
+            {
+                "title": "Communication avec l'API",
+                "content": "Ce projet nécessitait la communication avec une API pour récupérer et envoyer des données. Cela impliquait de s'assurer que les requêtes HTTP étaient correctement formulées et que les réponses de l'API étaient gérées de manière appropriée. L'utilisation de la méthode fetch a permis de réussir cette tâche."
+            },
+            {
+                "title": "Développement de la Page de Connexion et de la Modale",
+                "content": "La création de la page de connexion pour l'administrateur et de la modale pour uploader de nouveaux médias a été un défi de taille, nécessitant le développement from scratch. La solution a été d'utiliser des pratiques de développement centrées sur l'utilisateur pour garantir une expérience fluide et intuitive, tout en s'assurant que la sécurité des données était respectée."
+            }
+        ],
+        "desktop": [
+            {
+                "title": "Acceuil",
+                "images": ["SophieBluel_desktop_acceuil.webp"]
+            },
+            {
+                "title": "Login",
+                "images": ["SophieBluel_desktop_login.webp"]
+            },
+            {
+                "title": "Admin",
+                "images": ["SophieBluel_desktop_acceuilModeEdition.webp"]
+            },
+            {
+                "title": "Admin modale #1",
+                "images": ["SophieBluel_desktop_modale_01.webp"]
+            },
+            {
+                "title": "Admin modale #2",
+                "images": ["SophieBluel_desktop_modale_02.webp"]
+            }
+        ],
+        "mobile": [
+            {
+                "title": "",
+                "images": [""]
+            }
+        ],
+        "tags": ["Html", "Css", "Javascript", "API", "Swagger"],
+        "repository": "https://github.com/RisticoniPierreJ/Portfolio-architecte-sophie-bluel",
+        "demo": ""
+    },
+    {
+        "id": "6",
+        "title": "724Events",
+        "cover": {
+            "mobile": "724Events_300x225.webp",
+            "tablet": "724Events_800x600.webp",
+            "desktop": "724Events_1240x930.webp"
+        },
+        "logo": "724Event.png",
+        "description": "L'objectif de cette mission était de débugger et finaliser le développement du site one-page de l'agence événementielle 724events. Cela impliquait l'utilisation des Chrome DevTools pour identifier les problèmes et des outils spécifiques à React, comme React Developer Tools, pour résoudre les bugs signalés.",
+        "challenges": [
+            {
+                "title": "Débogage et Identification des Problèmes",
+                "content": "Le principal défi consistait à utiliser les Chrome DevTools pour examiner le code existant et identifier les problèmes et bugs dans le site. La solution a été d'examiner minutieusement chaque composant et utiliser les outils de débogage pour comprendre les erreurs."
+            },
+            {
+                "title": "Correction des Bugs",
+                "content": "Une fois les problèmes identifiés, la tâche était de corriger ces bugs en utilisant JavaScript et React. L'utilisation de React Developer Tools a été cruciale pour décomposer et résoudre les problèmes spécifiques aux composants React."
+            },
+            {
+                "title": "Rédaction et Complétion du Cahier de Recette",
+                "content": "Un autre défi important était de compléter le cahier de recette en ajoutant des scénarios de test détaillés pour vérifier le bon fonctionnement du site. Cela impliquait de créer des tests unitaires et fonctionnels pour s'assurer que tous les bugs étaient résolus et que le site fonctionnait correctement."
+            },
+            {
+                "title": "Gestion des Dépendances et Tests Locaux",
+                "content": "L'utilisation de Yarn comme gestionnaire de packages et Node.js pour exécuter du code JavaScript côté serveur a été essentielle pour gérer les dépendances du projet et exécuter des tests localement. Cela a permis de maintenir un environnement de développement stable et fiable."
+            }
+        ],
+        "desktop": [
+            {
+                "title": "Acceuil",
+                "images": ["724Event_desktop.webp"]
+            }
+        ],
+        "mobile": [
+            {
+                "title": "",
+                "images": [""]
+            }
+        ],
+        "tags": [
+            "Html",
+            "Css",
+            "Javascript",
+            "React",
+            "React Developer Tools",
+            "Chrome DevTools",
+            "Yarn",
+            "Node.js"
+        ],
+        "repository": "https://github.com/RisticoniPierreJ/Debuggez-une-application-React.JS",
+        "demo": ""
+    },
+    {
+        "id": "7",
+        "title": "Nina Carducci",
+        "cover": {
+            "mobile": "ninaCarducci_300x225.webp",
+            "tablet": "ninaCarducci_800x600.webp",
+            "desktop": "ninaCarducci_1240x930.webp"
+        },
+        "logo": "NinaCarducci.png",
+        "description": "L'objectif de cette mission était d'optimiser le référencement (SEO) et la performance du site de la photographe Nina Carducci. Le projet incluait l'amélioration de la vitesse de chargement, de la structure du code, et de l'accessibilité, en utilisant des outils comme Lighthouse et Wave.",
+        "challenges": [
+            {
+                "title": "Optimisation de la Vitesse de Chargement",
+                "content": "Le site de Nina était lent à charger, en grande partie à cause des images lourdes. La solution a été de compresser et optimiser les images pour réduire le temps de chargement sans compromettre la qualité."
+            },
+            {
+                "title": "Amélioration de la Structure du Code",
+                "content": "La structure du code nécessitait des améliorations pour une meilleure performance et accessibilité. Cela a impliqué la réorganisation du HTML et CSS, l'élimination des redondances, et l'optimisation des scripts JavaScript pour un rendu plus rapide et efficace."
+            },
+            {
+                "title": "Référencement Local avec Schema.org",
+                "content": "Pour améliorer la visibilité locale du site, le référencement local a été mis en place en utilisant Schema org. Cette technique permet aux moteurs de recherche de mieux comprendre les informations locales comme l'adresse et le numéro de téléphone, augmentant ainsi les chances de visibilité dans les recherches locales."
+            },
+            {
+                "title": "Ajout de Metas pour les Réseaux Sociaux",
+                "content": "L'intégration de metas pour les réseaux sociaux a été réalisée pour améliorer l'aperçu du site lorsqu'il est partagé. Cela inclut des balises Open Graph et Twitter Card qui rendent le partage plus attrayant et informatif."
+            },
+            {
+                "title": "Accessibilité du Site",
+                "content": "Des modifications ont été apportées pour améliorer l'accessibilité du site, incluant l'ajout de balises ARIA, l'amélioration de la navigation au clavier, et l'optimisation des contrastes pour les utilisateurs malvoyant"
+            },
+            {
+                "title": "Rapport d'Optimisation",
+                "content": "Ce rapport inclut des captures d'écran des audits de Lighthouse et Wave, ainsi que des explications sur les changements apportés et leur impact sur le référencement et l'accessibilité du site."
+            }
+        ],
+        "desktop": [
+            {
+                "title": "Acceuil",
+                "images": ["NinaCarducci_desktop.webp"]
+            }
+        ],
+        "mobile": [
+            {
+                "title": "Acceuil",
+                "images": ["NinaCarducci_phone.webp"]
+            }
+        ],
+        "tags": [
+            "Html",
+            "Css",
+            "Javascript",
+            "Schema.org",
+            "Lighthouse",
+            "Wave"
+        ],
+        "repository": "https://github.com/RisticoniPierreJ/ninacarducci.github.io",
+        "demo": "https://risticonipierrej.github.io/ninacarducci.github.io/"
+    }
+]
