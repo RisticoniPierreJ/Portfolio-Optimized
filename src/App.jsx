@@ -7,7 +7,7 @@ import AnimatedRoutes from "./components/AnimatedRoutes/AnimatedRoutes.jsx";
 
 function App() {
     return (
-        <Router basename="/Portfolio">
+        <Router basename="/Portfolio-Optimized">
             <ScrollToTop />
             <AnimatedRoutes />
             <ScrollToTopIcon />
