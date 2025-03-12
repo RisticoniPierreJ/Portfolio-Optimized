@@ -391,9 +391,6 @@ main {
 .dropDownGalleryContainer {
   position: relative;
 }
-.dropDownGalleryContainer label {
-  display: none;
-}
 
 .dropDownGallery {
   border: none;

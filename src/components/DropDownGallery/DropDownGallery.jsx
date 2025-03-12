@@ -7,12 +7,11 @@ function DropDownGallery({ pages, onSelect, selectedIndex }) {
             className="dropDownGalleryContainer"
             whileHover={{ scale: 1.1 }}
         >
-            <label htmlFor="DropDownGalleryLabel" >Sélectionner une page</label>
             <select
                 value={selectedIndex}
                 onChange={(e) => onSelect(Number(e.target.value))}
                 className="dropDownGallery"
-                id="DropDownGalleryLabel"
+                aria-label="Sélectionner une page"
             >
                 {pages.map((page, index) => (
                     <option
